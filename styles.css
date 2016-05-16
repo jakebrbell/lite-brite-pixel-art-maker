@@ -1,0 +1,328 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+######################################
+
+Container Styles
+
+######################################
+*/
+body {
+  background-color: #262626;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: #262626;
+  width: 960px;
+  height: 600px;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.center-container {
+  height: 380px;
+}
+
+/*
+######################################
+
+Header Styles
+
+######################################
+*/
+
+header {
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  border: 1px solid #E6E6E6;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Montserrat Alternates', 'Arial Rounded MT Bold', sans-serif;
+  letter-spacing: 7px;
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+
+/*
+######################################
+
+Grid Size Input Styles
+
+######################################
+*/
+
+.grid-size-input {
+  background-color: black;
+  border: 1px solid #E6E6E6;
+  height: 350px;
+  float: left;
+  width: 25%;
+  border-radius: 15px;
+  padding: 20px;
+  font-family: 'Arial Rounded MT Bold', arial, sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #E6E6E6;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.light-box {
+  font-size: 36px;
+}
+
+select {
+  font-size: 20px;
+  width: 70px;
+  border: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+  background-color: gray;
+  color: #E6E6E6;
+  text-indent: 24px;
+  margin: 10px 0;
+}
+
+.dimension-select {
+  display: inline-block;
+  padding: 7px;
+  width: 48%;
+  text-align: center;
+}
+
+label {
+  font-size: 24px;
+  color: #E6E6E6;
+  margin: 0px auto;
+}
+
+.button {
+  height: 40px;
+  width: 180px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #E6E6E6;
+  color: #E6E6E6;
+  background-color: black;
+  border-radius: 8px;
+  margin: 5px auto;
+  cursor: pointer;
+  -webkit-user-select: none;
+}
+
+.multiple-peg-button {
+  font-family: 'Arial Rounded MT Bold', arial, sans-serif;
+  height: 40px;
+  width: 180px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #E6E6E6;
+  color: #E6E6E6;
+  background-color: black;
+  border-radius: 8px;
+  margin: 35px auto 10px auto;
+  cursor: pointer;
+  -webkit-user-select: none;
+}
+
+.active {
+  background-color: #E6E6E6;
+  color: black;
+}
+
+/*
+######################################
+
+Canvas Styles
+
+######################################
+*/
+
+.canvas-container {
+  background-color: black;
+  float: right;
+  padding: 20px;
+  height: 350px;
+  border-radius: 15px;
+  width: 72%;
+  border: 1px solid #fff;
+  margin-left: 20px;
+  cursor: default;
+}
+
+.canvas {
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.canvas-container::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.pixel {
+  float: left;
+  height: 10px;
+  width: 10px;
+  border: 1px solid #404040;
+  border-radius: 50%;
+}
+
+/*
+######################################
+
+Color Palette Styles
+
+######################################
+*/
+
+.color {
+  height: 60px;
+  width: 60px;
+  margin: 5px 20px;
+  border-radius: 50%;
+  border: 1px solid #e6e6e6;
+  float: left;
+}
+
+.color-palette {
+  background-color: white;
+  height: 100px;
+  border-radius: 15px;
+  border: 1px solid #e6e6e6;
+  background-color: black;
+  padding: 15px;
+  width: 80%;
+  float: left;
+}
+
+.current-color-container {
+  float: right;
+  height: 100px;
+  width: 17%;
+  border: 1px solid #e6e6e6;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: black;
+
+}
+
+.current-color-container p {
+  color: #e6e6e6;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Arial Rounded MT Bold', arial, sans-serif;
+  margin-bottom: 5px;
+}
+
+.current-color {
+  height: 30px;
+  width: 130px;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  margin-top: 10px;
+}
+
+.red {
+  background-color: #FF1177;
+  box-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 10px #FF1177;
+}
+.orange {
+  background-color: #FF9900;
+  box-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 10px #FF9900;
+}
+.yellow {
+  background-color: #FFFF00;
+  box-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 10px #FFDD1B;
+}
+.green {
+  background-color: #6FFF00;
+  box-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 10px #6FFF00;
+}
+.blue {
+  background-color: #4D4DFF;
+  box-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 10px #4D4DFF;
+}
+.purple {
+  background-color: #993CF3;
+  box-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 10px #993CF3;
+}
+.white {
+  background-color: #E6E6E6;
+  box-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 10px #E6E6E6;
+}
+.black {
+  background-color: black;
+}
