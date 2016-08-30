@@ -6,7 +6,7 @@ This was an exercise in creating my own pixel art maker with the goal of allowin
 
 ##Features
 
-The basic features of the application allow a user to select a color from a palette of colors and then paint that color onto the canvas. 
+The basic features of the application allow a user to select a color from a palette of colors and then paint that color onto the canvas. They can then remove pegs by clicking on pegs that match the currently selected color. 
 
 The advanced features allow the user to customize the size of the grid:
 
