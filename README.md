@@ -19,7 +19,8 @@ The user is also able to turn on "Multi-Peg Mode" so they can click and drag and
 ##Tech
 
 * HTML/CSS
-* Javascript
+* JavaScript
+* Google Fonts
 * Surge (for deployment)
 
 ##Continued development
