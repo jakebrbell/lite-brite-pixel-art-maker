@@ -2,6 +2,8 @@
 
 This was an exercise in creating my own pixel art maker with the goal of allowing a user to choose colors from a palette and then paint pixel art. The interface was completely up to me so I decided to go with something old school and recreate the [Lite-Brite] (https://en.wikipedia.org/wiki/Lite-Brite). I was always jealous of my friends who had a Lite-Brite when I was a kid so this was my chance to make my own. 
 
+You can try out the application for yourself by clicking [here](http://jakebrbell-pixel-art-maker.surge.sh/).
+
 ![Screenshot of Pixel Art Maker](pixel-art-maker-house.png)
 
 ##Features
