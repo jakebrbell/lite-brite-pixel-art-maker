@@ -1,43 +1,29 @@
 # Pixel Art Maker
 
-In this exercise, you'll create your own pixel art maker which will allow a user to choose colors from a palette and then paint pixel art. The interface is completely up to you, but it could look something like this.
+This was an exercise in creating my own pixel art maker with the goal of allowing a user to choose colors from a palette and then paint pixel art. The interface was completely up to me so I decided to go with something old school and recreate the [Lite-Brite] (https://en.wikipedia.org/wiki/Lite-Brite). I was always jealous of my friends who had a Lite-Brite when I was a kid so this was my chance to make my own. 
 
 ![Screenshot of Pixel Art Maker](pixel-art-maker-house.png)
 
-More specifically, your pixel art maker should allow a user to do the following.
+##Features
 
-1. Start with a blank canvas of pixels.
-1. Select a brush color from a palette of colors.
-1. Paint the pixels on the canvas using the brush color.
-1. Repeat step 2.
+The basic features of the application allow a user to select a color from a palette of colors and then paint that color onto the canvas. 
 
-Here's a development workflow that we recommend you use.
+The advanced features allow the user to customize the size of the grid:
 
-1. Fork and clone this repository.
-1. Create a small, 2x2 grid canvas made up of white, square `div` tags with a border.
-1. Add an event listener to each `div` so when clicked the background turns red.
-1. Create a small palette of two colors (e.g. red and blue) below the canvas using more `div` tags.
-1. Add an event listener to these `div` tags so when clicked the brush color is saved.
-1. Expand the dimensions of the pixel canvas.
-1. Expand the palette with more colors. (i.e. red, orange, yellow, green, blue, purple, brown, gray, black, white, etc.)
-1. Expand the palette with a brush color indicator.
-1. Improve the look and feel of the canvas and color palette. Be careful not to break your program's behavior!
+![Display select grid size feature of Pixel Art Maker](pixel-art-maker-select-size.gif)
 
-**TIP:** Check out [this handy tool](http://www.colors.commutercreative.com/grid/) to see a list of all the named colors in CSS.
+The user is also able to turn on "Multi-Peg Mode" so they can click and drag and drop multiple pegs as they go:
 
-### Bonus 1
+![Display multi-peg mode feature of Pixel Art Maker](pixel-art-maker-multi-peg-mode.gif)
 
-Improve the mouse so it behaves like a real paintbrush. In other words, allow the user to paint by clicking and dragging across the canvas. For this, you'll need a combination of the `mousedown`, `mouseenter`, and `mouseup` events.
+##Tech
 
-**TIP:** The [`mouseenter` event](https://developer.mozilla.org/en-US/docs/Web/Events/mouseenter) doesn't bubble up the DOM tree.
+* HTML/CSS
+* Javascript
+* Surge (for deployment)
 
-### Bonus 2
+##Continued development
 
-Add a color picker which allows the user to select any brush color using the [`<input type="color">` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color) and the [`change` event](https://developer.mozilla.org/en-US/docs/Web/Events/change).
+In the future I would like to add the ability for a user to save their work and export their final product so they could make designs and share them with their friends.
 
-### Deployment
-
-Review the following articles on the Surge platform and then deploy your website to production.
-
-- [Getting started with Surge](http://surge.sh/help/getting-started-with-surge)
-- [Remembering a domain](http://surge.sh/help/remembering-a-domain)
+![Screenshot of Pixel Art Maker Birthday Card](pixel-art-maker-birthday.png)
