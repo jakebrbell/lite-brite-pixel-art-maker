@@ -12,11 +12,11 @@ The basic features of the application allow a user to select a color from a pale
 
 The advanced features allow the user to customize the size of the grid:
 
-![Display select grid size feature of Pixel Art Maker](pixel-art-maker-select-size.gif)
+<img src="https://github.com/jakebrbell/lite-brite-pixel-art-maker/raw/master/pixel-art-maker-select-size.gif" alt="Display select grid size feature of Pixel Art Maker" width="100%">
 
 The user is also able to turn on "Multi-Peg Mode" so they can click and drag and drop multiple pegs as they go:
 
-![Display multi-peg mode feature of Pixel Art Maker](pixel-art-maker-multi-peg-mode.gif)
+<img src="https://github.com/jakebrbell/lite-brite-pixel-art-maker/raw/master/pixel-art-maker-multi-peg-mode.gif" alt="Display multi-peg mode feature of Pixel Art Maker" width="100%">
 
 ##Tech
 
